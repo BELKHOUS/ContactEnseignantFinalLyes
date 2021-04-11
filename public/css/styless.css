@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+/*-------------------------------------the image--------------------------------*/
+body {
+    background-image: url("https://images.pexels.com/photos/256490/pexels-photo-256490.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    font-family: 'Oswald';
+}
+/*-------------------------------------------------------------------------------*/
+/*------------------------------nav bar----------------------------------------------*/
+.container-fluid{
+    background: rgba(0, 0, 0, 0.6);
+}
+nav{
+    font-family: 'Oswald';
+    position: fixed;
+    z-index: 10;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.logo2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+    font-size: small;
+}
+.fix{
+    margin-top: 5px;
+}
+/*-------------------------------------------------------------------------------*/
+/*--------------------------contact--------------------------------------------*/
+.big-box {
+    width: 80%;
+    height: 75%;
+    padding: 10px 30px 10px 30px;
+    position: fixed;
+    top: -19%;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    border-radius: 1%;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    color: #fff;
+}
+.img_1{
+
+    width: 120%;
+    position: relative;
+    right: 60px;
+}
+.contact{
+    margin-bottom: 50px;
+}
+.icon{
+    color: #ef8172;
+    float: left;
+    margin-right: 40px;
+    background-color: burlywood;
+    border-radius: 100%;
+    padding: 10px;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+h2{
+    text-align: left;
+    padding-top: 15px;
+}
+.tel{
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*-----------------------------adjust for mobile and tablett--------------------*/
+@media(max-width:1028px){
+    .img_1{
+
+        width: 0%;
+    }
+    h2{
+        font-size: 1rem;
+        padding-top: 30px ;
+    }
+}
+.opload{
+    background-color: red;
+    z-index: 9999999999;
+}
+/*-------------------------------------------------------------------------------*/
